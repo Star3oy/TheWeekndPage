@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+header {
+    background-color: #670010;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#Información{
+    font-size:larger;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #831023;
+}
+
+h2 {
+   background-color: #670010; 
+   color: white;
+   border-radius: 20px;
+   padding: 20px;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.carousel {
+    position: relative;
+    width: 80%; 
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    display: none;
+}
+
+.carousel-images img.active {
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.info-album {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;  
+}
+
+
+.album-info {
+    flex: 1 1 70%;
+    max-width:  700px;
+    margin-top: 150px;
+    margin-left: -400px;
+    text-align:left;
+    position: relatives;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.spotify-player {
+    margin-top: 150px;
+    margin-right: 60px;    
+    flex: 1 1 30%;  
+    min-width: 100px;
+    min-height: 200px;
+}
+
+#albumtext{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+

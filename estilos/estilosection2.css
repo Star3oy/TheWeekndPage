@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #030F26;
+}
+
+header {
+    background-color: #163A59;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#Información{
+    font-size:larger;
+    color: white;
+}
+
+#datos{
+    color: white;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #225473;
+}
+
+h2 {
+   background-color: #225473; 
+   color: white;
+   border-radius: 20px;
+   padding: 20px;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.carousel {
+    position: relative;
+    width: 80%; 
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px;
+    border-radius: 10px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    display: none;
+}
+
+.carousel-images img.active {
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.info-album {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;  
+}
+
+
+.album-info {
+    flex: 1 1 70%;
+    max-width:  700px;
+    margin-top: 150px;
+    margin-left: -400px;
+    text-align:left;
+    position: relatives;
+    background-color: #163A59;
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.spotify-player {
+    margin-top: 150px;
+    margin-right: 60px;    
+    flex: 1 1 30%;  
+    min-width: 300px;
+    position: sticky;
+    top: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#albumtext{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+

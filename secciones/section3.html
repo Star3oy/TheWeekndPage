@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starboy</title>
+    <link rel="stylesheet" href="/estilos/estilosection3.css">
+</head>
+<body>
+
+    <header>
+        <h1>The Weeknd</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">After Hours</a>
+        <a href="/secciones/section2.html">Dawn FM</a>
+        <a href="/secciones/section3.html">Starboy</a>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="https://i.pinimg.com/736x/3e/ca/d5/3ecad516849bc1011158e69866ad16a9.jpg" alt="Imagen 1">
+                <img src="https://i.pinimg.com/564x/66/79/e5/6679e550f92d8590534135d1100f5081.jpg" alt="Imagen 2">
+                <img src="https://i.pinimg.com/564x/e8/dd/30/e8dd3084fd96a445afed65019cae435e.jpg" alt="Imagen 3">
+            </div>
+            <button class="prev" onclick="moverCarrusel(-1)">&#10094;</button>
+            <button class="next" onclick="moverCarrusel(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="/script/section1.js"></script>
+
+    <section>
+        <h2>Información general</h2>
+        <ul>
+            <li><p id="Información">Fecha de lanzamiento:</p> <p id="datos">25 de Noviembre de 2016</p></li>
+            <li><p id="Información">Número de canciones:</p> <p id="datos">18 Canciones</p></li>
+            <li><p id="Información">Duración total:</p> <p id="datos">1 hora 8 minutos</p></li>
+        </ul>
+    </section>
+
+    <section class="info-album">
+        <h2>Un viaje a través de Starboy</h2>
+        
+        <div class="album-info">
+            <p id="albumtext">Los primeros 4 segundos del disco se escucha un sonido que genera la sensación de algo acercándose, para que posteriormente, escuchemos el primer sencillo promocional, “Starboy” junto a Daft Punk. El tema establece este “personaje” que lleva The Weeknd, y tras un hecho que narra en la canción, disfrutamos de este cambio que se aprecia en su forma de interpretar los siguientes temas.</p>
+            <p id="albumtext">Le sigue “Party Monster”, tema en el que sutilmente The Weeknd se deja llevar por el estilo de Eminem, por lo menos lo suficiente como para especificar una chica deseada con los labios de Angelina Jolie, y un trasero como el de Selena Gómez. Sin embargo la verdadera artista que sale a relucir es Lana Del Rey, quien participa cantando la palabra “Paranoid” en el tema junto a The Weeknd.</p>
+            <p id="albumtext">El drama narrado por The Weeknd continúa con un poco más de beat con “False Alarm”, tercer track del álbum, quien aporta un poco más de adrenalina al recorrer el disco. Por lo menos hasta los últimos 22 segundos de la canción, donde se escucha un canto de armonía egipcia, que da pie a “Reminder”, un tema que musicalmente se percibe como una confesión del artista, solo superada por su letra, que refiere a The Weeknd como alguien que ha dejado su larga cabellera negra y su marihuana a un lado.</p>
+            <a id="albumtext" href="https://plus.cusica.com/2016/11/28/resena-starboy/">Leer más...</a>
+            
+        </div>
+
+        <aside class="spotify-player">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2ODvWsOgouMbaA5xf0RkJe?utm_source=generator" 
+            width="100%" height="352" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </aside>
+    </section>
+
+</body>
+</html>
